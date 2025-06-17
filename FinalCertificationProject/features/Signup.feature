@@ -13,7 +13,7 @@ Feature: Signup feature test scenarios of DemoBlaze application
 
   @Signup
   Scenario: Verify the successfull Signup to DemoBlaze application with valid username and password
-  	When Enter 'Likhi176256' and '1234' to Signup
+  	When Enter 'Likhi176259' and '1234' to Signup
     And user clicks on Signup button
     Then popup should be displayed with a message 'Sign up successful.'
     #Then closes the browser
