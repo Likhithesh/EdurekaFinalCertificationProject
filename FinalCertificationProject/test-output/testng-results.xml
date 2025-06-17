@@ -11,6 +11,9 @@
       <![CDATA[Setting the text:=Test123 in the locator:=By.id: loginpassword]]>
     </line>
     <line>
+      <![CDATA[Clicking on the locator:=By.xpath: //button[text()='Log in']]]>
+    </line>
+    <line>
       <![CDATA[Text of the element is:=Welcome Likhithesh]]>
     </line>
     <line>
@@ -41,6 +44,9 @@
       <![CDATA[Setting the text:=Test123 in the locator:=By.id: loginpassword]]>
     </line>
     <line>
+      <![CDATA[Clicking on the locator:=By.xpath: //button[text()='Log in']]]>
+    </line>
+    <line>
       <![CDATA[Text of the element is:=Welcome Likhithesh]]>
     </line>
     <line>
@@ -51,6 +57,9 @@
     </line>
     <line>
       <![CDATA[Setting the text:=123 in the locator:=By.id: loginpassword]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the locator:=By.xpath: //button[text()='Log in']]]>
     </line>
     <line>
       <![CDATA[Getting the text from Alert popup]]>
@@ -71,6 +80,9 @@
       <![CDATA[Setting the text:=1234 in the locator:=By.id: loginpassword]]>
     </line>
     <line>
+      <![CDATA[Clicking on the locator:=By.xpath: //button[text()='Log in']]]>
+    </line>
+    <line>
       <![CDATA[Getting the text from Alert popup]]>
     </line>
     <line>
@@ -89,6 +101,9 @@
       <![CDATA[Setting the text:=123 in the locator:=By.id: loginpassword]]>
     </line>
     <line>
+      <![CDATA[Clicking on the locator:=By.xpath: //button[text()='Log in']]]>
+    </line>
+    <line>
       <![CDATA[Getting the text from Alert popup]]>
     </line>
     <line>
@@ -101,7 +116,7 @@
       <![CDATA[Clicking on the locator:=By.id: signin2]]>
     </line>
     <line>
-      <![CDATA[Setting the text:=Likhi176256 in the locator:=By.id: sign-username]]>
+      <![CDATA[Setting the text:=Likhi176259 in the locator:=By.id: sign-username]]>
     </line>
     <line>
       <![CDATA[Setting the text:=1234 in the locator:=By.id: sign-password]]>
@@ -140,26 +155,26 @@
       <![CDATA[Accepting the alert]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-06-17T23:25:31 IST" name="Default suite" finished-at="2025-06-17T23:26:44 IST" duration-ms="73253">
+  <suite started-at="2025-06-18T00:04:56 IST" name="Default suite" finished-at="2025-06-18T00:06:08 IST" duration-ms="72804">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectRunner@59402b8f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-06-17T23:25:31 IST" name="Default test" finished-at="2025-06-17T23:26:44 IST" duration-ms="73253">
+    <test started-at="2025-06-18T00:04:56 IST" name="Default test" finished-at="2025-06-18T00:06:08 IST" duration-ms="72804">
       <class name="runners.FinalProjectRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.FinalProjectRunner@59402b8f]" started-at="2025-06-17T23:25:31 IST" name="setUpClass" finished-at="2025-06-17T23:25:32 IST" duration-ms="574" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.FinalProjectRunner@59402b8f]" started-at="2025-06-18T00:04:56 IST" name="setUpClass" finished-at="2025-06-18T00:04:56 IST" duration-ms="660" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@488f3dd1]]>
+                <![CDATA[org.testng.TestRunner@5fcd1c5f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectRunner@59402b8f]" started-at="2025-06-17T23:25:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-17T23:25:55 IST" duration-ms="23425" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectRunner@59402b8f]" started-at="2025-06-18T00:04:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-18T00:05:19 IST" duration-ms="23256" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,6 +196,9 @@
             </line>
             <line>
               <![CDATA[Setting the text:=Test123 in the locator:=By.id: loginpassword]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on the locator:=By.xpath: //button[text()='Log in']]]>
             </line>
             <line>
               <![CDATA[Text of the element is:=Welcome Likhithesh]]>
@@ -205,7 +223,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectRunner@59402b8f]" started-at="2025-06-17T23:25:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-17T23:26:08 IST" duration-ms="12439" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectRunner@59402b8f]" started-at="2025-06-18T00:05:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-18T00:05:32 IST" duration-ms="12313" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -229,11 +247,14 @@
               <![CDATA[Setting the text:=Test123 in the locator:=By.id: loginpassword]]>
             </line>
             <line>
+              <![CDATA[Clicking on the locator:=By.xpath: //button[text()='Log in']]]>
+            </line>
+            <line>
               <![CDATA[Text of the element is:=Welcome Likhithesh]]>
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectRunner@59402b8f]" started-at="2025-06-17T23:26:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-17T23:26:14 IST" duration-ms="6684" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectRunner@59402b8f]" started-at="2025-06-18T00:05:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-18T00:05:38 IST" duration-ms="6601" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -257,6 +278,9 @@
               <![CDATA[Setting the text:=123 in the locator:=By.id: loginpassword]]>
             </line>
             <line>
+              <![CDATA[Clicking on the locator:=By.xpath: //button[text()='Log in']]]>
+            </line>
+            <line>
               <![CDATA[Getting the text from Alert popup]]>
             </line>
             <line>
@@ -267,7 +291,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectRunner@59402b8f]" started-at="2025-06-17T23:26:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-17T23:26:21 IST" duration-ms="6703" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectRunner@59402b8f]" started-at="2025-06-18T00:05:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-18T00:05:45 IST" duration-ms="6471" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -291,6 +315,9 @@
               <![CDATA[Setting the text:=1234 in the locator:=By.id: loginpassword]]>
             </line>
             <line>
+              <![CDATA[Clicking on the locator:=By.xpath: //button[text()='Log in']]]>
+            </line>
+            <line>
               <![CDATA[Getting the text from Alert popup]]>
             </line>
             <line>
@@ -301,7 +328,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectRunner@59402b8f]" started-at="2025-06-17T23:26:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-17T23:26:27 IST" duration-ms="6424" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectRunner@59402b8f]" started-at="2025-06-18T00:05:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-18T00:05:51 IST" duration-ms="6552" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -325,6 +352,9 @@
               <![CDATA[Setting the text:=123 in the locator:=By.id: loginpassword]]>
             </line>
             <line>
+              <![CDATA[Clicking on the locator:=By.xpath: //button[text()='Log in']]]>
+            </line>
+            <line>
               <![CDATA[Getting the text from Alert popup]]>
             </line>
             <line>
@@ -335,7 +365,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectRunner@59402b8f]" started-at="2025-06-17T23:26:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-17T23:26:36 IST" duration-ms="8531" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectRunner@59402b8f]" started-at="2025-06-18T00:05:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-18T00:06:00 IST" duration-ms="8435" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -353,7 +383,7 @@
               <![CDATA[Clicking on the locator:=By.id: signin2]]>
             </line>
             <line>
-              <![CDATA[Setting the text:=Likhi176256 in the locator:=By.id: sign-username]]>
+              <![CDATA[Setting the text:=Likhi176259 in the locator:=By.id: sign-username]]>
             </line>
             <line>
               <![CDATA[Setting the text:=1234 in the locator:=By.id: sign-password]]>
@@ -372,7 +402,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectRunner@59402b8f]" started-at="2025-06-17T23:26:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-17T23:26:44 IST" duration-ms="8412" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FinalProjectRunner@59402b8f]" started-at="2025-06-18T00:06:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-18T00:06:08 IST" duration-ms="8446" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -409,7 +439,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.FinalProjectRunner@59402b8f]" started-at="2025-06-17T23:26:44 IST" name="tearDownClass" finished-at="2025-06-17T23:26:44 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.FinalProjectRunner@59402b8f]" started-at="2025-06-18T00:06:08 IST" name="tearDownClass" finished-at="2025-06-18T00:06:08 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

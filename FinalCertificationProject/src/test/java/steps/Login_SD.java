@@ -58,7 +58,7 @@ public class Login_SD implements AutomationConst {
 	}
 
 	@And("user clicks on Login button")
-	public void user_clicks_on_login_button() {
+	public void user_clicks_on_login_button() throws InterruptedException {
 		demoBlazeIndexPage = new DemoBlazeIndexPage(driver);
 		demoBlazeIndexPage.clickOnLoginButton();
 	}

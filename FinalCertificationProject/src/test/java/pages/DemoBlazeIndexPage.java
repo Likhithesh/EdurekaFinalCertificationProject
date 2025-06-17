@@ -78,11 +78,12 @@ public class DemoBlazeIndexPage {
 		WebActions.setText(driver, inputPassword_signup, password);
 	}
 
-	public void clickOnLoginButton() {
+	public void clickOnLoginButton() throws InterruptedException {
 		// driver.findElement(buttonLogin).click();
-//		WebActions.click(driver, buttonLogin);
-		action = new Actions(driver);
-		action.click(LoginButton).build().perform();
+		WebActions.click(driver, buttonLogin);
+//		Thread.sleep(2000);
+//		action = new Actions(driver);
+//		action.click(LoginButton).build().perform();
 	}
 	
 	public void clickOnSignupButton() {
@@ -90,7 +91,7 @@ public class DemoBlazeIndexPage {
 		WebActions.click(driver, buttonSignup);
 	}
 
-	public void login(String userName, String password) {
+	public void login(String userName, String password) throws InterruptedException {
 		Logger logger = LoggerUtility.getLogger("DemoBlazeIndexPage.login()");
 		logger.debug("Start of the Login Method of Demo Blaze");
 		logger.info("Start of the Login Method of Demo Blaze");
